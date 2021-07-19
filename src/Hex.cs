@@ -124,4 +124,5 @@ public static class HexImpl {
       }
     }
   }
+
 }

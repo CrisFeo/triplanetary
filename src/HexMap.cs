@@ -31,11 +31,9 @@ public record HexMap<V> {
 
   public bool Has(Hex h) => data.Has(Key(h));
 
-
   // Internal methods
   ///////////////////////////
 
   (int, int) Key(Hex h) => (h.q, h.r);
 
 }
-
